@@ -50,7 +50,7 @@
           top_space = $('#header').outerHeight();
 
           if (! $('#header').hasClass('header-scrolled')) {
-            top_space = top_space - 40;
+            top_space = top_space - 20;
           }
         }
 
@@ -117,15 +117,6 @@
     dots: true,
     loop: true,
     items: 1
-  });
-
-  // Clients carousel (uses the Owl Carousel library)
-  $(".clients-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
-    }
   });
 
 })(jQuery);
