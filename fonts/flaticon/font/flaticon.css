@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 14/01/2019 09:57
+  	Creation date: 24/09/2018 04:43
   	*/
 
 @font-face {
@@ -24,20 +24,22 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-family:before { content: "\f100"; }
-.flaticon-auction:before { content: "\f101"; }
-.flaticon-handcuffs:before { content: "\f102"; }
-.flaticon-shield:before { content: "\f103"; }
-.flaticon-lawyer:before { content: "\f104"; }
-.flaticon-medal:before { content: "\f105"; }
-.flaticon-handshake:before { content: "\f106"; }
-.flaticon-house:before { content: "\f107"; }
-.flaticon-employee:before { content: "\f108"; }
-.flaticon-fire:before { content: "\f109"; }
-.flaticon-money:before { content: "\f10a"; }
-.flaticon-medicine:before { content: "\f10b"; }
+.flaticon-worker:before { content: "\f100"; }
+.flaticon-industry:before { content: "\f101"; }
+.flaticon-industrial-robot:before { content: "\f102"; }
+.flaticon-excavator:before { content: "\f103"; }
+.flaticon-gears:before { content: "\f104"; }
+.flaticon-agreement:before { content: "\f105"; }
+.flaticon-planet-earth:before { content: "\f106"; }

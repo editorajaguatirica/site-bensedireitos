@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 14/01/2019 09:57
+    Creation date: 24/09/2018 04:43
     */
 
     @font-face {
@@ -36,28 +36,18 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-family:before { content: "\f100"; }
-.flaticon-auction:before { content: "\f101"; }
-.flaticon-handcuffs:before { content: "\f102"; }
-.flaticon-shield:before { content: "\f103"; }
-.flaticon-lawyer:before { content: "\f104"; }
-.flaticon-medal:before { content: "\f105"; }
-.flaticon-handshake:before { content: "\f106"; }
-.flaticon-house:before { content: "\f107"; }
-.flaticon-employee:before { content: "\f108"; }
-.flaticon-fire:before { content: "\f109"; }
-.flaticon-money:before { content: "\f10a"; }
-.flaticon-medicine:before { content: "\f10b"; }
+    .flaticon-worker:before { content: "\f100"; }
+.flaticon-industry:before { content: "\f101"; }
+.flaticon-industrial-robot:before { content: "\f102"; }
+.flaticon-excavator:before { content: "\f103"; }
+.flaticon-gears:before { content: "\f104"; }
+.flaticon-agreement:before { content: "\f105"; }
+.flaticon-planet-earth:before { content: "\f106"; }
     
-    $font-Flaticon-family: "\f100";
-    $font-Flaticon-auction: "\f101";
-    $font-Flaticon-handcuffs: "\f102";
-    $font-Flaticon-shield: "\f103";
-    $font-Flaticon-lawyer: "\f104";
-    $font-Flaticon-medal: "\f105";
-    $font-Flaticon-handshake: "\f106";
-    $font-Flaticon-house: "\f107";
-    $font-Flaticon-employee: "\f108";
-    $font-Flaticon-fire: "\f109";
-    $font-Flaticon-money: "\f10a";
-    $font-Flaticon-medicine: "\f10b";
+    $font-Flaticon-worker: "\f100";
+    $font-Flaticon-industry: "\f101";
+    $font-Flaticon-industrial-robot: "\f102";
+    $font-Flaticon-excavator: "\f103";
+    $font-Flaticon-gears: "\f104";
+    $font-Flaticon-agreement: "\f105";
+    $font-Flaticon-planet-earth: "\f106";
